@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { DatBinding } from './components/data-binding/data-binding';
+import { DataMount } from './components/data-binding/data-mount';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <DataMount />
   </React.StrictMode>
 );
 
