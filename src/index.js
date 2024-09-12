@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { DatBinding } from './components/data-binding/data-binding';
-import { DataMount } from './components/data-binding/data-mount';
+import { DataBindingForm } from './components/data-binding/data-binding-form';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+import bootstrap from 'bootstrap';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DataMount />
+    <DataBindingForm />
   </React.StrictMode>
 );
 
