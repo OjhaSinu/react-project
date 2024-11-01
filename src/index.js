@@ -7,14 +7,15 @@ import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import  '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import bootstrap from 'bootstrap';
-import { DataPrice } from './components/data-binding/data-price';
-import { DataStock } from './components/data-binding/data-stock';
-import { BindingExpression } from './components/data-binding/binding-expresion';
+
+
+import { AccessDataAxios } from './components/data-binding/access-data-axios';
+import { NasaApi } from './components/nasa-api/nasa-api';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BindingExpression />
+    <NasaApi />
   </React.StrictMode>
 );
 
